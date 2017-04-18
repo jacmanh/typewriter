@@ -1,4 +1,6 @@
-/*! Jquery TypeWriter (C) 2017 jacmanh. */
+// Typewriter
+// 2017, Jacmanh, https://github.com/jacmanh/typewriter
+// Licensed under the MIT license.
 (function ($) {
 
     var defaultsParams = {

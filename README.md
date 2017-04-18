@@ -1,7 +1,9 @@
-# typewriter
+# A VERY lightweight Jquery Typewriter
 A jquery plugin / Css animated to simulate a typewriter
 
-Demo : https://codepen.io/jacmanh/pen/gWaeoO
+![alt tag](https://image.noelshack.com/fichiers/2017/16/1492528673-gif-typewriter.gif)
+
+***Demo here*** : https://codepen.io/jacmanh/pen/gWaeoO
 
 # How to install
 
@@ -35,3 +37,13 @@ If you want to change the color, just edit some css :
 }
 ```
 
+# Customize it !
+```js
+<script>
+    $('.js-typewriter').typewriter({
+        speed: 1000, // Speed animation, in ms
+        delay: 5000, // Waiting time for the next switch, in ms
+        marge: 10 // Right margin, in px
+    });
+</script>
+```
