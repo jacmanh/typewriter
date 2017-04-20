@@ -3,7 +3,7 @@ A jquery plugin / Css animated to simulate a typewriter
 
 ![alt tag](https://image.noelshack.com/fichiers/2017/16/1492528673-gif-typewriter.gif)
 
-***Demo here*** : https://codepen.io/jacmanh/pen/gWaeoO
+[Demo here](https://cdn.rawgit.com/jacmanh/typewriter/ecac1821/examples/reviews/index.html)
 
 # How to install
 
