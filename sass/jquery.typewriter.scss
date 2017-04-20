@@ -1,0 +1,32 @@
+/* Typewriter
+// 2017, Jacmanh, https://github.com/jacmanh/typewriter
+// Licensed under the MIT license.
+*/
+.typewriter__clip {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-right: 1px solid white;
+
+  .is-hidden {
+    opacity: 0;
+  }
+
+  .is-visible {
+    opacity: 1;
+
+    &.typewriter__word {
+      position: relative;
+    }
+  }
+}
+.typewriter__clip_no-cursor {
+  border-right: 0;
+}
+.typewriter__word {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+}

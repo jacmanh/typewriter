@@ -11,10 +11,12 @@ Insert ***jquery.typewriter.min.js*** and ***jquery.typewriter.min.css*** into y
 
 Add ***typewriter__clip*** class into the container, like this :
 ```html
-<div class="typewriter__clip js-typewriter">
-    <p>When nothing is going right, go left.</p>
-    <p>I’m not sad. I’m sober…</p>
-    <p>Optimism – is a lack of information.</p>
+<div class="typewriter__clip">
+    <div class="js-typewriter">
+        <p class="typewriter__word">The series is fun !</p>
+        <p class="typewriter__word">The rooting interests are many and varied...</p>
+        <p class="typewriter__word">Watch it !</p>
+    </div>
 </div>
 ```
 
@@ -27,17 +29,31 @@ Then call typewriter function as follow :
 
 Voilà !
 
+# Customize it !
+
 If you want to change the color, just edit some css :
 ```css
 .typewriter__clip {
   position: relative;
   display: inline-block;
   overflow: hidden;
-  border-right: 1px solid blue; /* change the cursor color here */
+  border-right: 1px solid white; /* change the cursor color here */
 }
 ```
 
-# Customize it !
+To remove the cursor, add class 'typewriter__clip_no-cursor' next to the 'typewriter__clip' class :
+```html
+<div class="typewriter__clip typewriter__clip_no-cursor">
+    <div class="js-typewriter">
+        <p class="typewriter__word">The series is fun !</p>
+        <p class="typewriter__word">The rooting interests are many and varied...</p>
+        <p class="typewriter__word">Watch it !</p>
+    </div>
+</div>
+```
+
+# Options
+
 ```js
 <script>
     $('.js-typewriter').typewriter({

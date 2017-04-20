@@ -32,8 +32,8 @@
      * Init classes
      */
     TypeWriter.prototype.init = function () {
-        this.element.find('p:not(:first)').addClass('u-invisible');
-        this.element.find('p:first').addClass('u-visible');
+        this.element.find('p:not(:first)').addClass('is-hidden');
+        this.element.find('p:first').addClass('is-visible');
 
         this.activeItem = this.nextWord = this.getVisibleItem();
         this.showWord(0);
@@ -87,8 +87,8 @@
      * Switch classes
      */
     TypeWriter.prototype.updateClasses = function () {
-        this.nextWord.addClass('u-visible').removeClass('u-invisible');
-        this.activeItem.addClass('u-invisible').removeClass('u-visible');
+        this.nextWord.addClass('is-visible').removeClass('is-hidden');
+        this.activeItem.addClass('is-hidden').removeClass('is-visible');
     };
 
     /**

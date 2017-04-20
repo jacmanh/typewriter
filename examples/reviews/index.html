@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Jquery Typewriter</title>
+
+    <link rel="stylesheet" href="../../dist/jquery.typewriter.min.css">
+    <script src="../../dist/jquery-3.2.1.min.js"></script>
+    <script src="../../dist/jquery.typewriter.min.js"></script>
+
+    <!-- FOR DEMO ONLY -->
+    <link rel="stylesheet" href="reviews.css">
+</head>
+<body>
+    <section class="page">
+        <header class="header">
+            <a href="/" class="header__logo">Awesome logo</a>
+        </header>
+
+        <article class="article">
+            <h1>Stranger things</h1>
+            <p>
+                When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.
+            </p>
+
+            <h2>User Reviews</h2>
+            <div class="reviews">
+                <div class="typewriter__clip typewriter__clip_no-cursor">
+                    <div class="js-typewriter">
+                        <p class="typewriter__word">The series is fun !</p>
+                        <p class="typewriter__word">The rooting interests are many and varied...</p>
+                        <p class="typewriter__word">Watch it !</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+<script>
+    $('.js-typewriter').typewriter();
+</script>
+</body>
+</html>
